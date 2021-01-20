@@ -25,6 +25,11 @@ h1 {
 .hero-right {
   max-width: 100%;
 }
+.icon-table {
+  max-width: 80%;
+  display: block;
+  margin: auto;
+}
 .icon-boxes {
   background-color: #093f68;
   border-radius: 30%;
@@ -40,4 +45,20 @@ h1 {
 .icon-paragraph {
   color: #777f98;
   font-size: 10px;
+}
+.pricing-plan-heading {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.pricing-plan-paragraph {
+  color: #777f98;
+  margin: auto;
+  text-align: center;
+  font-size: 10px;
+  width: 300px;
+}
+.free-box {
+  background-color: #093f68;
+  width: 200px;
+  border-radius: 5px;
 }
