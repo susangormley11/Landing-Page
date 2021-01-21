@@ -3,32 +3,54 @@ body {
   color: #ffffff;
   font-family: "Manrope", sans-serif;
 }
+header {
+  height: 180px;
+}
+.logo {
+  margin-top: 60px;
+  margin-left: 150px;
+}
 h1 {
   text-align: center;
   font-size: 48px;
+  width: 500px;
+  margin: 0 auto;
 }
 .scroll-icon {
   display: block;
   margin: auto;
+  padding-top: 40px;
 }
 .intro {
   color: #777f98;
   font-size: 15px;
   text-align: center;
+  margin-top: 40px;
+  width: 540px;
+  padding: 0 20px 0 20px;
 }
 .blue {
   color: #3ee9e5;
 }
 .hero-left {
-  max-width: 100%;
+  max-width: 350px;
+  margin-right: 25px;
 }
 .hero-right {
-  max-width: 100%;
+  max-width: 350px;
+  margin-left: 25px;
+}
+.heading-center-column {
+  background-image: url("../src/images/bg-hero-squiggle.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .icon-table {
   max-width: 80%;
   display: block;
   margin: auto;
+  padding-top: 150px;
 }
 .icon-boxes {
   background-color: #093f68;
@@ -59,6 +81,22 @@ h1 {
 }
 .free-box {
   background-color: #093f68;
-  width: 200px;
+  width: 300px;
   border-radius: 5px;
+}
+.free-heading {
+  font-size: 14px;
+  font-weight: bolder;
+  margin: 15px 0 15px 0;
+}
+.paid-box {
+  background-color: #3ee9e5;
+  color: #080c20;
+  width: 300px;
+  border-radius: 5px;
+}
+.pricing-boxes {
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
 }

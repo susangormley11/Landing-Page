@@ -11,12 +11,15 @@
   <title>Frontend Mentor | Maker pre-launch landing page</title>
 </head>
 <body>
+  <header>
+    <img src="src/images/logo.svg" class="logo" />
+  </header>
   <table>
     <tr>
       <td>
         <img src="src/images/illustration-hero-left.svg" class="hero-left" />
       </td>
-      <td>
+      <td class="heading-center-column">
         <h1>
           Get paid for the work you <span class="blue">love</span> to do.
         </h1>
@@ -84,24 +87,61 @@
   it’s completely free to get started.
   </h3>
 
-  <table>
+  <table class="pricing-boxes">
     <tr>
-      <td class="free-box">Dip your toe
-  Just getting started? No problem at all! Our free plan will take you a long way.
-  Free
-  Unlimited products
-  Basic analytics
-  Limited marketplace exposure
-  10% fee per transaction
+      <td class="free-box">
+      <img src="src/images/icon-free.svg" />
+      <div class="free-heading">
+        Dip your toe
+      </div>
+      <div class="free-paragraph">
+        Just getting started? No problem at all! Our free plan will take you a long way.
+      </div>
+      <div class="free-subheading">
+        Free
+      </div>
+      <ul>
+        <li>
+          Unlimited products
+        </li>
+        <li>
+          Basic analytics
+        </li>
+        <li>
+          Limited marketplace exposure
+        </li>
+        <li>
+          10% fee per transaction
+        </li>
+      </ul>
+      </td>
+      <td>
+
       </td>
 
-      <td>Dive right in
-  Ready for the big time? Our paid plan will help you take your business to the next level.
-  $25.00 /month
-  Custom domain
-  Advanced analytics and reports
-  High marketplace visibility
-  5% fee per transaction
+      <td class="paid-box">
+        <img src="src/images/icon-paid.svg" />
+      <div class="paid-heading">
+        Dive right in
+      </div>
+      <div class="paid-paragraph">
+        Ready for the big time? Our paid plan will help you take your business to the next level.
+      </div>
+      <div class="payment">$25.00</div><span class="per-month"> /month</span>
+      <ul>
+        <li>
+          Custom domain
+        </li>
+        <li>
+          Advanced analytics and reports
+        </li>
+        <li>
+          High marketplace visibility
+        </li>
+        <li>
+          5% fee per transaction
+        </li>
+      </ul>
       </td>
   </tr>
   </table>
