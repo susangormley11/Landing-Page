@@ -10,11 +10,16 @@ header {
   margin-top: 60px;
   margin-left: 150px;
 }
+.heading-table {
+  margin-right: auto;
+  margin-left: auto;
+}
 h1 {
   text-align: center;
   font-size: 48px;
   width: 500px;
   margin: 0 auto;
+  padding-top: 120px;
 }
 .scroll-icon {
   display: block;
@@ -25,8 +30,8 @@ h1 {
   color: #777f98;
   font-size: 15px;
   text-align: center;
-  margin-top: 40px;
-  width: 540px;
+  margin-top: 20px;
+  width: 530px;
   padding: 0 20px 0 20px;
 }
 .blue {
@@ -34,17 +39,17 @@ h1 {
 }
 .hero-left {
   max-width: 350px;
-  margin-right: 25px;
+  margin-right: 48px;
 }
 .hero-right {
   max-width: 350px;
-  margin-left: 25px;
+  margin-left: 48px;
 }
 .heading-center-column {
   background-image: url("../src/images/bg-hero-squiggle.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  width: 300px;
 }
 .icon-table {
   max-width: 80%;
