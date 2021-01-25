@@ -57,13 +57,20 @@ h1 {
   margin: auto;
   padding-top: 150px;
 }
+.icons {
+  margin: 0;
+  padding: 12px;
+  border: 0;
+}
 .icon-boxes {
-  background-color: #093f68;
+  background: #093f68;
+  background-position: center;
   border-radius: 30%;
-  padding: 20px;
-  width: 60px;
-  height: 60px;
-  background-size: contain;
+  padding: 30px;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  vertical-align: middle;
 }
 .lowered-box {
   padding-top: 75px;
