@@ -59,7 +59,7 @@ h1 {
 }
 .icons {
   margin: 0;
-  padding: 12px;
+  padding: 2px;
   border: 0;
 }
 .icon-boxes {
@@ -67,8 +67,8 @@ h1 {
   background-position: center;
   border-radius: 30%;
   padding: 30px;
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   text-align: center;
   vertical-align: middle;
 }
@@ -87,14 +87,17 @@ h1 {
 }
 .pricing-plan-heading {
   text-align: center;
-  margin-bottom: 15px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 30px;
 }
 .pricing-plan-paragraph {
   color: #777f98;
   margin: auto;
   text-align: center;
-  font-size: 10px;
+  font-size: 14px;
   width: 300px;
+  
 }
 .free-box {
   background-color: #093f68;
